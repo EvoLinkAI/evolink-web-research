@@ -91,5 +91,7 @@ This skill does not modify other skills or system settings. No elevated or persi
 
 ## Links
 
-- [EvoLink API](https://evolink.ai/signup?utm_source=clawhub&utm_medium=skill&utm_campaign=web-search) - Get your free API key
-- [GitHub Repository](https://github.com/EvoLinkAI/web-research-skill-for-openclaw) - View source code
+- [GitHub](https://github.com/EvoLinkAI/web-research-skill-for-openclaw)
+- [API Reference](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=clawhub&utm_medium=skill&utm_campaign=web-search)
+- [Community](https://discord.com/invite/5mGHfA24kn)
+- [Support](mailto:support@evolink.ai)
