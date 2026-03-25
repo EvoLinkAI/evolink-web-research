@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WORKSPACE="${HOME}/.openclaw/workspace"
 REPORTS_DIR="${WORKSPACE}/research-reports"
 EVOLINK_API_KEY="${EVOLINK_API_KEY:-}"
-EVOLINK_MODEL="${EVOLINK_MODEL:-[REDACTED]}"
+EVOLINK_MODEL="${EVOLINK_MODEL:-claude-opus-4-6}"
 
 # Parse arguments
 QUERY="${1:-}"

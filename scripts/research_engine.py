@@ -142,7 +142,7 @@ def main():
     parser.add_argument("--max-sources", type=int, default=8, help="Maximum sources to analyze")
     parser.add_argument("--output", required=True, help="Output file path")
     parser.add_argument("--api-key", required=True, help="Evolink API key")
-    parser.add_argument("--model", default="[REDACTED]", help="Model to use")
+    parser.add_argument("--model", default="claude-opus-4-6", help="Model to use")
     parser.add_argument("--timeout", type=int, default=300, help="API timeout in seconds")
     
     args = parser.parse_args()

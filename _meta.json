@@ -12,9 +12,9 @@
     },
     {
       "name": "EVOLINK_MODEL",
-      "description": "Model to use (default: [REDACTED])",
+      "description": "Model to use (default: claude-opus-4-6)",
       "required": false,
-      "default": "[REDACTED]"
+      "default": "claude-opus-4-6"
     }
   ],
   "binaries": ["curl", "python3", "jq"],
