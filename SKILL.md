@@ -153,12 +153,12 @@ Set your Evolink API key:
 export EVOLINK_API_KEY="your-key-here"
 ```
 
-Default model: `[REDACTED]` (no configuration needed).
+Default model: `claude-opus-4-6` (no configuration needed).
 
 To use a different model:
 
 ```bash
-export EVOLINK_MODEL="[REDACTED]"
+export EVOLINK_MODEL="claude-opus-4-6"
 ```
 
 [Get your API key →](https://evolink.ai/signup?utm_source=clawhub&utm_medium=skill&utm_campaign=web-research)
