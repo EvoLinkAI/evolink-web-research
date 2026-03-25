@@ -21,17 +21,9 @@ def call_web_search(query: str, count: int = 10) -> Dict[str, Any]:
     brave_api_key = os.environ.get("BRAVE_API_KEY", "")
     
     if not brave_api_key:
-        # Fallback: use a simple web scraping approach
-        print("⚠️  BRAVE_API_KEY not set, using fallback search", file=sys.stderr)
-        return {
-            "results": [
-                {
-                    "title": f"Search result for: {query}",
-                    "url": "https://example.com",
-                    "snippet": "This is a fallback result. Set BRAVE_API_KEY for real search."
-                }
-            ]
-        }
+        print("❌ Error: BRAVE_API_KEY environment variable is required", file=sys.stderr)
+        print("Get your free API key at: https://brave.com/search/api/", file=sys.stderr)
+        sys.exit(1)
     
     try:
         cmd = [

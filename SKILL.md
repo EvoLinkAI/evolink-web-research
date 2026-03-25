@@ -198,12 +198,14 @@ Output filenames are sanitized to prevent path traversal attacks (alphanumeric +
 
 **Network Access**
 
-This skill makes network requests to:
-1. Brave Search API (via OpenClaw's `web_search` tool)
-2. Target websites (via OpenClaw's `web_fetch` tool)
-3. `api.evolink.ai` (for AI-powered synthesis)
+This skill makes direct network requests to:
+1. **Brave Search API** (`api.search.brave.com`) - to retrieve search results
+2. **Target websites** - to fetch page content via curl
+3. **Evolink API** (`api.evolink.ai`) - to send extracted text for AI synthesis
 
-All requests are logged by OpenClaw for auditability.
+⚠️ **Privacy Notice**: Extracted webpage text and your research query are transmitted to `api.evolink.ai` for analysis. Do not use this skill for sensitive, confidential, or private research topics.
+
+All network calls are performed via standard tools (curl) and can be audited in the script source code.
 
 **Persistence & Privilege**
 
