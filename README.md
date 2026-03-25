@@ -1,4 +1,4 @@
-# Web Research Assistant
+# Web Research Skill for OpenClaw
 
 **AI-Powered Deep Research with Claude Opus 4.6**
 
