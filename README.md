@@ -25,6 +25,22 @@ bash scripts/research.sh "quantum computing breakthroughs" deep 12
 bash scripts/research.sh "electric vehicle adoption" quick
 ```
 
+
+## 🔑 API Requirements
+
+This skill requires **two API keys**:
+
+1. **Evolink API Key** (Required)
+   - Used for AI-powered analysis with Claude Opus 4.6
+   - Get your key: [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=web-research)
+
+2. **Brave Search API Key** (Required)
+   - Used for web search to gather sources
+   - **Free tier**: 2,000 searches/month (sufficient for personal use)
+   - Get your key: [brave.com/search/api](https://brave.com/search/api/)
+
+Both keys are free to start and required for the skill to function.
+
 ## 📋 Output Example
 
 ```markdown
@@ -70,21 +86,23 @@ reached 67% among professional developers.
 
 ## ⚙️ Configuration
 
-Set your Evolink API key:
+Set your API keys:
 
 ```bash
-export EVOLINK_API_KEY="your-key-here"
+export EVOLINK_API_KEY="your-evolink-key-here"
+export BRAVE_API_KEY="your-brave-key-here"
 ```
 
-Default model: `claude-opus-4-6` (no configuration needed).
+Default model: `[REDACTED]` (no configuration needed).
 
 To use a different model:
 
 ```bash
-export EVOLINK_MODEL="claude-opus-4-6"
+export EVOLINK_MODEL="[REDACTED]"
 ```
 
-👉 [Get your API key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=web-research)
+👉 [Get Evolink API key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=web-research)  
+👉 [Get Brave API key](https://brave.com/search/api/) (Free: 2,000 searches/month)
 
 
 ## 📊 Research Depth Levels

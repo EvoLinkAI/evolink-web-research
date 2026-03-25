@@ -1,7 +1,7 @@
 {
   "name": "evolink-web-research",
   "version": "1.0.0",
-  "description": "AI-powered deep research with Claude Opus 4.6 — cross-validates sources, scores credibility, generates structured reports",
+  "description": "AI-powered deep research with Claude Opus 4.6 \u2014 cross-validates sources, scores credibility, generates structured reports",
   "author": "EvoLink.ai",
   "license": "MIT",
   "envVars": [
@@ -11,13 +11,29 @@
       "required": true
     },
     {
+      "name": "BRAVE_API_KEY",
+      "description": "Your Brave Search API key from https://brave.com/search/api/ (Free: 2,000 searches/month)",
+      "required": true
+    },
+    {
       "name": "EVOLINK_MODEL",
-      "description": "Model to use (default: claude-opus-4-6)",
+      "description": "Model to use (default: [REDACTED])",
       "required": false,
-      "default": "claude-opus-4-6"
+      "default": "[REDACTED]"
     }
   ],
-  "binaries": ["curl", "python3", "jq"],
+  "binaries": [
+    "curl",
+    "python3",
+    "jq"
+  ],
   "networkAccess": true,
-  "tags": ["research", "web-search", "analysis", "ai", "claude", "evolink"]
+  "tags": [
+    "research",
+    "web-search",
+    "analysis",
+    "ai",
+    "claude",
+    "evolink"
+  ]
 }
