@@ -1,0 +1,23 @@
+{
+  "name": "evolink-web-research",
+  "version": "1.0.0",
+  "description": "AI-powered deep research with Claude Opus 4.6 — cross-validates sources, scores credibility, generates structured reports",
+  "author": "EvoLink.ai",
+  "license": "MIT",
+  "envVars": [
+    {
+      "name": "EVOLINK_API_KEY",
+      "description": "Your Evolink API key from https://evolink.ai/signup",
+      "required": true
+    },
+    {
+      "name": "EVOLINK_MODEL",
+      "description": "Model to use (default: [REDACTED])",
+      "required": false,
+      "default": "[REDACTED]"
+    }
+  ],
+  "binaries": ["curl", "python3", "jq"],
+  "networkAccess": true,
+  "tags": ["research", "web-search", "analysis", "ai", "claude", "evolink"]
+}
