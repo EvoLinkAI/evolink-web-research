@@ -1,7 +1,12 @@
+---
+name: web-research
+description: Web search via EvoLink API. Returns clean, formatted results with titles, URLs, and descriptions. Powered by evolink.ai
+metadata: {"clawdbot":{"emoji":"🔍","requires":{"bins":["bash","curl","jq"],"env":["EVOLINK_API_KEY"]},"primaryEnv":"EVOLINK_API_KEY"}}
+---
+
 # Web Search Assistant
 
-<name>Web Search Assistant</name>
-<description>AI-powered web search using EvoLink API. Returns clean, formatted results with titles, URLs, and descriptions. Powered by evolink.ai</description>
+Web search using EvoLink API. Returns clean, formatted results with titles, URLs, and descriptions.
 
 Powered by [Evolink.ai](https://evolink.ai?utm_source=clawhub&utm_medium=skill&utm_campaign=web-search)
 
@@ -14,12 +19,17 @@ Use this skill when users request:
 - Fact-checking or verification using web sources
 - Gathering URLs and resources on a topic
 
-## Quick Start
+## Search
 
 ```bash
-bash scripts/search.sh "AI coding assistants 2026"
-bash scripts/search.sh "quantum computing breakthroughs" 20
+{baseDir}/scripts/search.sh "query"
+{baseDir}/scripts/search.sh "query" 20
 ```
+
+## Options
+
+- `<query>`: Search query
+- `<max_results>`: Number of results (default: 10)
 
 ## Configuration
 
@@ -30,24 +40,6 @@ export EVOLINK_API_KEY="your-evolink-api-key-here"
 ```
 
 👉 [Get free API key](https://evolink.ai/signup?utm_source=clawhub&utm_medium=skill&utm_campaign=web-search)
-
-## Usage
-
-### Basic Search
-
-```bash
-bash scripts/search.sh "search query"
-```
-
-Returns top 10 results with titles, URLs, and descriptions.
-
-### Limit Results
-
-```bash
-bash scripts/search.sh "search query" 20
-```
-
-Specify maximum number of results (default: 10).
 
 ## Example
 
