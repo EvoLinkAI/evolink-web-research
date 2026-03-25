@@ -1,9 +1,9 @@
 ---
-name: Web Research Assistant
+name: Web Search Assistant
 description: AI-powered deep research with Claude Opus 4.6 — cross-validates sources, scores credibility, generates structured reports. Powered by evolink.ai
 ---
 
-# Web Research Assistant
+# Web Search Assistant
 
 **AI-Powered Deep Research with Claude Opus 4.6**
 
