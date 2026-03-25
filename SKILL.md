@@ -161,6 +161,9 @@ To use a different model:
 export EVOLINK_MODEL="[REDACTED]"
 ```
 
+export EVOLINK_MODEL="[REDACTED]"
+```
+
 [Get your API key →](https://evolink.ai/signup?utm_source=clawhub&utm_medium=skill&utm_campaign=web-research)
 
 ## Security
