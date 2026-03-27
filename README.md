@@ -68,7 +68,7 @@ MIT
 
 ## 🔗 Links
 
-- [GitHub](https://github.com/EvoLinkAI/web-research-skill-for-openclaw)
+- [ClawHub](https://clawhub.ai/evolinkai/web-research)
 - [API Reference](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=web-search)
 - [Community](https://discord.com/invite/5mGHfA24kn)
 - [Support](mailto:support@evolink.ai)
