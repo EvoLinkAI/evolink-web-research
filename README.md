@@ -1,3 +1,5 @@
+🌐 English | [日本語](README.ja.md) | [한국어](README.ko.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [Русский](README.ru.md) | [हिन्दी](README.hi.md) | [Türkçe](README.tr.md)
+
 # Web Search Assistant
 
 **AI-powered web search using EvoLink API**

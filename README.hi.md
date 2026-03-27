@@ -1,3 +1,5 @@
+🌐 [English](README.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [Русский](README.ru.md) | हिन्दी | [Türkçe](README.tr.md)
+
 # Web Search Assistant
 
 **EvoLink API का उपयोग करके AI-संचालित वेब खोज**
